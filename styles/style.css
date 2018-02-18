@@ -1,0 +1,293 @@
+@charset "utf-8";
+/* CSS Document */
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+
+.div {
+background-image: url("images/Help.jpg");
+}
+
+.main_wrapper{
+	width:50px;
+	height:50px;
+	margin:auto;
+}
+.header_wrapper{
+	width:1000px;
+	height:200px;
+	background:#FFF;
+
+}
+
+#navbar{
+	width:1000px;
+	height:50px;
+	background:#999;
+	color:#FFF;
+	font-size:5;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+		}
+
+#menu{
+	padding: 0;
+	line-height: 36px;
+	margin-top: 5px;
+	float: left;
+
+}
+#menu li{
+	list-style: none;
+	display: inline;
+}
+
+#menu a{
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 20px;
+	margin: 5px;
+	padding: 10px
+}
+#menu a:hover{
+	text-decoration: underline;
+	color: black;
+	font-weight: bolder;
+}
+#form{float:right;line-height: 50px;padding-right: 5px}
+
+.content_wrapper{
+	width:1000px;
+	height: auto;
+	background: #FCC;
+}
+
+#right_content{
+	width:800px;
+	height: auto;
+	background:#FCC;
+	float: right;
+}
+
+#left_sidebar{
+	width:200px;
+	background: #000;
+	float: left;
+	font-size:5;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+.footer{
+	width:1000px;
+	height: 50px;
+	background: #999;
+	color:#FFF;
+	clear:both;
+}
+
+#sidebar_title{
+	background: #FFF;
+	padding: 10px;
+	color:#000;
+	font-size: 22px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"
+
+}
+#cats{
+	padding: 10px;
+	text-align: center;
+
+}
+#cats li{list-style: none;padding: 5px;}
+#cats a{color: #FFF;font-size: 16px;text-decoration: none;margin: 5px;}
+#cats a:hover{color: #F93; text-decoration: underline;font-weight: bold;}
+
+#headline {background: #000000; color:#F7F7F7; float: right;height: 30px; width: 780px;padding: 10px;}
+#headline_content{float: right;}
+
+#products_box{
+	float: left;
+	width: 780 px;
+	margin-left: 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+	padding: 10px;
+}
+
+#single_product{float:left; padding:10px;}
+#single_product img {border: 2px solid #333;}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+/* Bottom left text */
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+/* Top left text */
+.top-left {
+    position: absolute;
+    top: 150px;
+    left: 200px;
+}
+
+/* Top right text */
+.top-right {
+    position: absolute;
+    top: 10px;
+    right: 2px;
+}
+
+/* Bottom right text */
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.biggreen {font-size: 24pt;
+          font-family: Ariel; color: green}
+
+.button {
+							     background-color: #4CAF50; /* Green */
+							     border: none;
+							     color: white;
+							     padding: 14px 40px;
+							     text-align: center;
+							     text-decoration: none;
+							     display: inline-block;
+							     font-size: 16px;
+									 border-radius: 12px;
+									 border: 2px solid #4CAF50;
+									  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+							 }
+
+ a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    color: initial;
+}
+
+.submitbutton {
+	 -webkit-appearance: button;
+	 -moz-appearance: button;
+	 appearance: button;
+	 text-decoration: none;
+	 color: initial;
+}
+
+.speech {border: 1px solid #DDD; width: 300px; padding: 0; margin: 0}
+.speech input {border: 0; width: 240px; display: inline-block; height: 30px;}
+.speech img {float: right; width: 40px }
+
+.input {
+    width: 20%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+
+input{
+	padding: 0;
+	height: 50px;
+	width: 100px;
+	border: 1px solid;
+	border-color: #edc5a8;
+	background-color: Orange;
+	font-size: 24pt;
+	font-family: Ariel;
+}
+label{
+	font-family: "Times New Roman";
+}
+
+
+
+input[type="tel"] {
+  border: 1px solid black;
+  padding: 4px 8px;
+}
+input[type="tel"]:focus {
+  border: 1px solid black;
+}
+
+#keypad {margin:auto; margin-top:20px;}
+
+#keypad tr td {
+	vertical-align:middle;
+	text-align:center;
+	border:1px solid #000000;
+	font-size:18px;
+	font-weight:bold;
+	width:40px;
+	height:30px;
+	cursor:pointer;
+	background-color:#666666;
+	color:#CCCCCC;}
+#keypad tr td:hover {background-color:#999999; color:#FFFF00;}
+
+.display {
+	width:130px;
+	margin:10px auto auto auto;
+	background-color:#000000;
+	color:#00FF00;
+	font-size:18px;
+	border:1px solid #999999;
+}
+#message {
+	text-align:center;
+	color:#009900;
+	font-size:14px;
+	font-weight:bold;
+	display:none;
+}
+/* The dropdown container */
